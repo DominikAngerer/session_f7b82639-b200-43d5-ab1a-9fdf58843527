@@ -1,0 +1,16 @@
+const setup = require('./setup')
+// const setupHomePage = require('./homeFolder')
+// const setupCatalogPage = require('./catalogFolder')
+// const setupContactPage = require('./contactFolder')
+setup()
+// .then(setupContactPage)
+// .then(setupCatalogPage)
+// .then(setupHomePage)
+.then(() => {
+  console.log('Storyblok environment setup completed')
+  return Promise.resolve()
+})
+.catch(error => {
+  console.log(error)
+  return process.exit(1)
+})

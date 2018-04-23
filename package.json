@@ -1,0 +1,17 @@
+{
+  "name": "session_f7b82639-b200-43d5-ab1a-9fdf58843527",
+  "version": "1.0.0",
+  "description": "Quick test for session_f7b82639-b200-43d5-ab1a-9fdf58843527",
+  "main": "setup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "fs-extra": "^5.0.0",
+    "request-promise": "^4.2.2"
+  }
+}
